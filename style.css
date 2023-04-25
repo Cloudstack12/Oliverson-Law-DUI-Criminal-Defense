@@ -10,27 +10,18 @@
 }
 
 body {
-
-  padding: 40px 10%;
-  background: #f5f5f5;
+    padding: 10px 10%;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.795), rgba(255, 255, 255, 0.795)), url("https://lh3.googleusercontent.com/-RGAOd4tcOpCyCeBTI0jRG_HflsHKzn6no_s-KaYBDz9G4--Tm1Wz76VUq3RclxMZ8RSmsNPJcNAB7-ms8eSuqeLXySbgRdw07-iJTtafLcL");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  
 }
 
 a{
   text-decoration: none;
 }
-    a.new:link {
-    color: #d68e3f;
-  }
-    a.new:visited {
-    color: #d68e3f;
-  }
-   a.new:active {
-    color: #d68e3f;
-  } 
-   a.new:hover {
-    cursor: pointer;
-    color: #000;
-  }
 
 /* Container Styles */
 .container {
@@ -71,11 +62,13 @@ a{
   }
 }
 
+
+
 /* Navigation Menu Styles */
 
 nav.nav-menu {
   width: 100%;
-  background-color: #151a31;
+  background-color: #43ba7f;
   padding: 10px;
 }
 
@@ -94,7 +87,7 @@ nav.nav-menu ul {
 
 .nav-menu .nav-item:hover {
   cursor: pointer;
-  background-color: #d68e3f;
+  background-color: #efb3f8;
   border-radius: 12px;
 }
 
@@ -107,11 +100,11 @@ nav.nav-menu ul {
 /* Main Content Wrapper Styles */
 .main-wrapper {
   background: white;
-  padding: 40px;
+  padding: 50px;
 }
 
 section {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 section.head,
@@ -124,7 +117,7 @@ section.youtube-embed {
   margin: 20px 0 0 0;
   padding: 10px 50px;
   width: fit-content;
-  background: #d68e3f;
+  background: #43ba7f;
   border-radius: 5px;
   text-decoration: none;
   color: white;
@@ -134,23 +127,20 @@ section.youtube-embed {
 .button-link:hover {
   transform: scale(1.05);
   cursor: pointer;
-  background-color: #151a31;
+  background-color: #efb3f8;
 }
 
 h1 {
-  font-size: 38px;
+  font-size: 32px;
 }
 
 h2 {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 ul{
-  padding-left: 40px;
-  list-style: url("https://lh3.googleusercontent.com/J5cQL1bh_sfX3V8tEh0VRFWuniF1DXIpJLbw9A8VnwWQMGv6zfTLiURpvNwFaKsnTyN4ioAGAknV0my_koltSdiwMnV2jIg8GQfoe2LSoA");
-}
-   
-
+  padding-left: 30px;
+  }
   
   .side ul{
     text-align: justify;
@@ -162,7 +152,7 @@ ul{
   }
 
   ol{
-    padding-left: 20px;
+    padding-left: 40px;
     }
     
     .side ol{
@@ -183,7 +173,7 @@ p {
 img {
   max-width: 100%;
   float: left;
-  border: 0px solid white;
+  border: 3px solid white;
   border-radius: 10px;
   margin: 15px;
 }
@@ -198,37 +188,6 @@ img {
   width: 50%;
 }
 
-.hero-image {
-    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://lh3.googleusercontent.com/iPZFuV02eM4a7X__W6z_C3HG5t5ebYAzj7u8-m4zP1Q96p8j2hwetvqPqvsIM3LaxdridMcmlLPmFOdEmvsygOtAx_MNOm01HpCsSWy-0_M");
-  
-    /* Set a specific height */
-    height: 280px;
-  
-    /* Position and center the image to scale nicely on all screens */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-  }
-  
-  /* Place text in the middle of the image */
-  .hero-text {
-  
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 25%;
-    transform: translate(-25%, -25%);
-    color: rgb(255, 255, 255);
-    font-weight: bold;
-    font-size: 35px;
-    width: 100%;
-    padding: 0px;
-  }
-
-
-  
 @media only screen and (max-width: 900px) {
   body {
     padding: 0;
